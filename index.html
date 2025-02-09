@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Dulani Kariyawasam - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+   <nav>
+    <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+            <span>Dulani Kariyawasam</span>
+        </div>
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="education.html">Education</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="skills.html">Skills</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="projects.html">Projects</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="certificate.html">Certificates</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contact.html">Contact</a></div>
+			
+        </div>
+		<i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        
+    </div>
+    <div class="dropdown">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="education.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="certificate.html">Certificates</a>
+            <a href="contact.html">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+
+
+
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="assets/profile.jpg" alt="Dulani Kariyawasam">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey, I'm <span>Dulani Kariyawasam</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span> </span></div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+                    I am a motivated and detail-oriented Software Engineering undergraduate at IIT with a passion for learning and problem-solving. Skilled in Python, Java, Web Development (HTML, CSS, JavaScript), React, Spring Boot, and MySQL. I thrive in collaborative environments and enjoy building innovative software solutions.
+                </p>
+                
+                <!-- Social & Contact Links Styled Together -->
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/dula089" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dulani-kariyawasam-48a86b294" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:hansamalidulani6678@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+94789960694"><i class="fa-solid fa-phone"></i></a>
+                </div>
+
+                <!-- Buttons -->
+                <div class="btn-container" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1400">
+                    <a href="Dulani_Kariyawasam_CV.pdf" download><button>Download CV</button></a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">Dulani Kariyawasam</div>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-social">
+            <a href="https://github.com/dula089" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dulani-kariyawasam-48a86b294" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:hansamalidulani6678@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+94789960694"><i class="fa-solid fa-phone"></i></a>
+        </div>
+        <p>&copy; 2025 Dulani Kariyawasam. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script>
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown");
+            navbar.style.transform = "translateY(0px)";
+        }
+        function cancel(){
+            const navbar = document.querySelector(".dropdown");
+            navbar.style.transform = "translateY(-500px)";
+        }
+    </script>
+</body>
+</html>
