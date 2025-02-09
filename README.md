@@ -7,7 +7,7 @@ This is a **Responsive Personal Portfolio Website** built using HTML, CSS, and J
 
 <div align="center" >
   <h1>
-  <a href="https://dula089.github.io/Responsive_Personal_Portfolio_DKariyawasam.github.io/"><strong>➥ Watch Live Demo</strong></a>
+  <a href="https://dula089.github.io/Responsive_Personal_Portfolio_DKariyawasam.github.io/"><strong>➥ Watch Live</strong></a>
   </h1>
 </div>
 <br>
