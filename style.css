@@ -284,6 +284,123 @@ section {
     padding: 10px;
   }
 }
+@media (max-width: 768px) {
+  /* Adjusts layout for smaller Android screens */
+  .main-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-container .content {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .main-container .image {
+    width: 70%;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content .typewriter {
+    font-size: 1.5rem;
+  }
+
+  .social-links i {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .content button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For smaller Android devices (phones under 5 inches) */
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .hamburg,
+  .cancel {
+    font-size: 1.8rem;
+  }
+
+  .main-container .content {
+    width: 95%;
+  }
+
+  .main-container .image {
+    width: 80%;
+  }
+
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content .typewriter {
+    font-size: 1.2rem;
+  }
+
+  .social-links i {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .content button {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  /* For very small Android screens (low-end devices) */
+  .logo {
+    font-size: 1rem;
+  }
+
+  .hamburg,
+  .cancel {
+    font-size: 1.5rem;
+  }
+
+  .main-container .content {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .main-container .image {
+    width: 90%;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .content .typewriter {
+    font-size: 1rem;
+  }
+
+  .social-links i {
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 0.9rem;
+  }
+
+  .content button {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
 * {
