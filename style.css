@@ -255,6 +255,7 @@ section {
   }
   .main-container .content {
     width: 80%;
+    overflow-x: hidden;
   }
   .social-links i {
     width: 2.5rem;
