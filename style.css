@@ -235,6 +235,7 @@ section {
 @media (max-width: 884px) {
   body {
     overflow-y: visible;
+    /* overflow-x: hidden; */
   }
   nav .logo {
     position: absolute;
